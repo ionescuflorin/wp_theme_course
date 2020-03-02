@@ -32,3 +32,5 @@
 - add the css
 
 - add the top admin black bar
+
+- programatically load css by making a file called functions.php
