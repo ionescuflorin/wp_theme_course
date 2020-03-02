@@ -49,3 +49,5 @@
 - add sidebar of children menus
 - working on blog
 - front-page.php it will be used for our home page
+- single.php - individual posts
+- page.php - individual pages
