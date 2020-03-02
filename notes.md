@@ -47,3 +47,5 @@
 - work on breadcrumbs parent-children relationships
 - codex.wordpress / developer.wordpress echo get / not echo the
 - add sidebar of children menus
+- working on blog
+- front-page.php it will be used for our home page
