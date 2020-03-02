@@ -16,3 +16,11 @@ function university_files()
 }
 // S4 V11 M15
 add_action('wp_enqueue_scripts', 'university_files');
+
+
+function university_features() {
+    add_theme_support('title-tag');
+}
+
+// add custom title for each page
+add_action('after_setup_theme', 'university_features');

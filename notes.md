@@ -41,3 +41,6 @@
      - add the styles into the style.css file
      - add font icons and google fonts in functions.php
      - copy and move the images, css, js folders to the wp folder
+     - disable chaching ony for dev mode
+
+- integrate the interior page layout for majority of pages and apply that into page.php
