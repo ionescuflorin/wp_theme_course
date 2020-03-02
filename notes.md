@@ -33,4 +33,11 @@
 
 - add the top admin black bar
 
-- programatically load css by making a file called functions.php
+- programatically load css by making a file called functions.php and register the syles and scripts
+
+- take the html template:
+     - header
+     - footer
+     - add the styles into the style.css file
+     - add font icons and google fonts in functions.php
+     - copy and move the images, css, js folders to the wp folder
