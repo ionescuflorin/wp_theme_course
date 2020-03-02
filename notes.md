@@ -44,3 +44,6 @@
      - disable chaching ony for dev mode
 
 - integrate the interior page layout for majority of pages and apply that into page.php
+- work on breadcrumbs parent-children relationships
+- codex.wordpress / developer.wordpress echo get / not echo the
+- add sidebar of children menus
