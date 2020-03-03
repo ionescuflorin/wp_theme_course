@@ -4,6 +4,9 @@
 function university_post_types() {
     register_post_type('event', [
         // it will make visible for the users
+        'supports' => [
+            'title', 'editor', 'excerpt'
+        ],
         'rewrite' => [
             'slug' => 'events'
         ],

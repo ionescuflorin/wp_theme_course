@@ -75,3 +75,8 @@ WordPress provides many hooks that you can use, but you can also create your own
 -  Better practice to treat CPT as a plugin (Must Use Plugin) - you can't dezactivate it
 - make a folder called mu-plugin in wp-content
 - make a new file just to handle the event post type called single-event.php
+
+- CUSTOM FIELDS
+- there are 2 industry main custom fields plugins:
+- Advanced custom fields (the better way)
+- CMB2 (Custom Metaboxes 2)
