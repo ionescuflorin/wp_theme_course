@@ -51,3 +51,7 @@
 - front-page.php it will be used for our home page
 - single.php - individual posts
 - page.php - individual pages
+- custom queries
+- to strat creating a custom quey you start by creating a variable
+- after finishing using the custom queries use at the end of the php block this code:      
+ <?php } wp_reset_postdata(); ?>
