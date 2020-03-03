@@ -4,6 +4,10 @@
 function university_post_types() {
     register_post_type('event', [
         // it will make visible for the users
+        'rewrite' => [
+            'slug' => 'events'
+        ],
+        'has_archive' => true,
         'public' => true,
         'labels' => [
             'name' => 'Events',

@@ -74,3 +74,4 @@ Filters give you the ability to change data during the execution of WordPress. C
 WordPress provides many hooks that you can use, but you can also create your own so that other developers can extend and modify your plugin or theme. -->
 -  Better practice to treat CPT as a plugin (Must Use Plugin) - you can't dezactivate it
 - make a folder called mu-plugin in wp-content
+- make a new file just to handle the event post type called single-event.php
