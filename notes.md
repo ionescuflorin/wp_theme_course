@@ -55,3 +55,5 @@
 - to strat creating a custom quey you start by creating a variable
 - after finishing using the custom queries use at the end of the php block this code:      
  <?php } wp_reset_postdata(); ?>
+- add workflow and automation
+- npm i gulp-cli -g
