@@ -57,3 +57,20 @@
  <?php } wp_reset_postdata(); ?>
 - add workflow and automation
 - npm i gulp-cli -g
+- custom post types
+Post type:
+- ex Posts
+- ex Pages - A page is actually just a post with a special post type of page. (post_type=page)
+- create a new custom post type called events
+
+<!-- Hooks are a way for one piece of code to interact/modify another piece of code. They make up the foundation for how plugins and themes interact with WordPress Core, but they’re also used extensively by Core itself.
+
+There are two types of hooks: Actions and Filters. To use either, you need to write a custom function known as a Callback, and then register it with WordPress hook for a specific Action or Filter.
+
+Actions allow you to add data or change how WordPress operates. Callback functions for Actions will run at a specific point in in the execution of WordPress, and can perform some kind of a task, like echoing output to the user or inserting something into the database.
+
+Filters give you the ability to change data during the execution of WordPress. Callback functions for Filters will accept a variable, modify it, and return it. They are meant to work in an isolated manner, and should never have side effects such as affecting global variables and output.
+
+WordPress provides many hooks that you can use, but you can also create your own so that other developers can extend and modify your plugin or theme. -->
+-  Better practice to treat CPT as a plugin (Must Use Plugin) - you can't dezactivate it
+- make a folder called mu-plugin in wp-content

@@ -28,3 +28,4 @@ function university_features() {
 
 // add custom title for each page
 add_action('after_setup_theme', 'university_features');
+
